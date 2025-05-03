@@ -1,0 +1,97 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pillarsbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillarsbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pillarsdime/worldgen/biome/pillarsbiome.json"
+        ]
+      }
+    },
+    {
+      "name": "PillarsDiM2",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillars_di_m_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pillarsdime/world/teleporter/PillarsDiM2PortalShape.java",
+          "src/main/resources/assets/pillarsdime/models/block/pillars_di_m_2_portal_ns.json",
+          "src/main/resources/data/pillarsdime/dimension/pillars_di_m_2.json",
+          "src/main/resources/assets/pillarsdime/models/item/pillars_di_m_2.json",
+          "src/main/resources/data/pillarsdime/dimension_type/pillars_di_m_2.json",
+          "src/main/java/net/mcreator/pillarsdime/block/PillarsDiM2PortalBlock.java",
+          "src/main/java/net/mcreator/pillarsdime/world/teleporter/PillarsDiM2Teleporter.java",
+          "src/main/resources/assets/pillarsdime/models/block/pillars_di_m_2_portal_ew.json",
+          "src/main/java/net/mcreator/pillarsdime/item/PillarsDiM2Item.java",
+          "src/main/resources/assets/pillarsdime/blockstates/pillars_di_m_2_portal.json",
+          "src/main/java/net/mcreator/pillarsdime/world/dimension/PillarsDiM2Dimension.java"
+        ]
+      }
+    },
+    {
+      "name": "PillarsEssence",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillars_essence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pillarsdime/models/item/pillars_essence_bucket.json",
+          "src/main/resources/assets/pillarsdime/models/block/pillars_essence.json",
+          "src/main/java/net/mcreator/pillarsdime/item/PillarsEssenceItem.java",
+          "src/main/java/net/mcreator/pillarsdime/fluid/types/PillarsEssenceFluidType.java",
+          "src/main/resources/assets/pillarsdime/blockstates/pillars_essence.json",
+          "src/main/java/net/mcreator/pillarsdime/fluid/PillarsEssenceFluid.java",
+          "src/main/java/net/mcreator/pillarsdime/block/PillarsEssenceBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:PillarsEssence"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "fluid.pillarsdime.pillars_essence": "Pillars Essence",
+      "item.pillarsdime.pillars_essence_bucket": "Pillars Essence Bucket",
+      "item.pillarsdime.pillars_di_m_2": "Pillars Di M 2 Portal Igniter",
+      "biome.pillarsdime.pillarsbiome": "PillarsbiomePlains",
+      "block.pillarsdime.pillars_essence": "Pillars Essence"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pillarsdime",
+    "modName": "Pillarsdime",
+    "version": "1.0.0",
+    "author": "Gery3, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.pillarsdime"
+  },
+  "mcreatorVersion": 202400452410
+}

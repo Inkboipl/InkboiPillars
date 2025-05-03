@@ -1,0 +1,70 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pillarsbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillarsbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pillarsdime/worldgen/biome/pillarsbiome.json"
+        ]
+      }
+    },
+    {
+      "name": "PillarsDiM2",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillars_di_m_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pillarsdime/world/teleporter/PillarsDiM2PortalShape.java",
+          "src/main/resources/assets/pillarsdime/models/block/pillars_di_m_2_portal_ns.json",
+          "src/main/resources/data/pillarsdime/dimension/pillars_di_m_2.json",
+          "src/main/resources/data/pillarsdime/dimension_type/pillars_di_m_2.json",
+          "src/main/java/net/mcreator/pillarsdime/block/PillarsDiM2PortalBlock.java",
+          "src/main/java/net/mcreator/pillarsdime/world/teleporter/PillarsDiM2Teleporter.java",
+          "src/main/resources/assets/pillarsdime/models/block/pillars_di_m_2_portal_ew.json",
+          "src/main/resources/assets/pillarsdime/blockstates/pillars_di_m_2_portal.json",
+          "src/main/java/net/mcreator/pillarsdime/world/dimension/PillarsDiM2Dimension.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.DIRT#0",
+      "~Blocks.GRASS"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.pillarsdime.pillarsbiome": "PillarsbiomePlains"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pillarsdime",
+    "modName": "Pillarsdime",
+    "version": "1.0.0",
+    "author": "Gery3, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.pillarsdime"
+  },
+  "mcreatorVersion": 202400452410
+}

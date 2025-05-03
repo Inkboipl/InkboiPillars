@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "pillarsdime:pillars_di_m_2"
+    },
+    "title": {
+      "translate": "advancements.pillars.title"
+    },
+    "description": {
+      "translate": "advancements.pillars.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pillars_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "pillarsdime:pillars_di_m_2"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "pillarsdime:where_is_omu_cat"
+}
